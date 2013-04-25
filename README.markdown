@@ -5,6 +5,12 @@ Ucenter authcode
 使用方法
 ===
 
+在Gemfile里配置，然后运行bundle install
+```ruby
+gem "ucenter_authcode"
+```
+
+使用
 ```ruby
 UC_KEY = "Y426x6Basctda9f94e49h3B6OeofcdX0J8Ua2a37P1M9Jd00he28o3t5ocq707U5"
 code = "b384r5HiERJ+kEbb25t9jbtDXULGnCnR++1EK9xlmG74OKkd3hfjC4+dUJePocsJHts2JeO4/Po"
