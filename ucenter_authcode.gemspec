@@ -6,5 +6,5 @@ Gem::Specification.new do |s|
   s.authors     = ["iceskysl", "David Chen"]
   s.email       = 'mvjome@gmail.com'
   s.files       = ["lib/ucenter_authcode.rb"]
-  s.homepage    = 'http://rubygems.org/gems/ucenter_authcode'
+  s.homepage    = 'https://github.com/eoecn/ucenter_authcode'
 end
