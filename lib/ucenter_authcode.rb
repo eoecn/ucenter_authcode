@@ -50,7 +50,7 @@ module UCenter
       end
 
       result_time_valided = (result[0, 10] == '0'*10) || (result[0, 10].to_i - Time.now.to_i  >  0)
-      result_string_valided = result[10, 16] == (md5(result[26..-1] + key_right))[0, 16] # 重新加密和string对比验证
+      result_string_valided = result[10, 16] == md5("#{result[26..-1]}#{key_right}")[0, 16] # 重新加密和string对比验证
       if (result_time_valided  && result_string_valided)
         return result[26..-1]
       else
